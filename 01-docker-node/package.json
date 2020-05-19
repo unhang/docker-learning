@@ -1,0 +1,16 @@
+{
+  "description": "A simple project how to use docker",
+  "author": {
+    "name": "unhang"
+  },
+  "dependencies": {
+    "express": "*"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "https://somewhereovertherainbow.com"
+  }
+}

@@ -1,0 +1,13 @@
+version: "3.2"
+
+# Service chứa nhiều container
+services:
+  redis-server:
+    image: 'redis'
+    # ports: 
+      # - "6379:6379"
+  node-visitors-app:
+    restart: always         
+    build: .
+    ports: 
+        - "4041:8081" 
